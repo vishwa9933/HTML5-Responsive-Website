@@ -1,0 +1,158 @@
+/* Global Style */
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+a,
+a:hover {
+  color: #484b4f;
+}
+
+a:hover {
+  font-weight: 700;
+  text-decoration: none;
+  color: orange;
+}
+
+article header {
+  margin-bottom: 20px;
+}
+
+hr {
+  margin: 30px 0;
+}
+
+.no-hor-pad {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* My Intro Section */
+.intro-box {
+  height: 100vh;
+  background: url("./../../images/intro_bg.jpeg");
+  background-size: cover;
+  position: fixed;
+  width: 33.33%;
+  margin: 0;
+  padding: 0;
+}
+
+.intro-box,
+.intro-box .my-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-box .my-card {
+  padding: 20px;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.intro-box .my-card .my-img img {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+}
+
+.intro-box .my-card .intro-text h1 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  line-height: 40px;
+  margin: 0;
+  font-weight: 800;
+}
+.intro-box .my-card .intro-text h1 strong {
+  color: rgba(255, 255, 255, 1);
+}
+.intro-box .my-card .intro-text h1 span {
+  border-bottom: 1px dotted #fff;
+}
+
+.intro-box .social-media ul {
+  list-style: none;
+  padding: 0;
+}
+.intro-box .social-media ul li {
+  display: inline;
+  padding-left: 10px;
+}
+.intro-box .social-media ul li .fab {
+  font-size: 24px;
+  color: #fff !important;
+  padding-top: 20px;
+}
+.intro-box .copyright-info span {
+  color: grey;
+  font-size: 12px;
+}
+
+/* My Work Section */
+/* My Work - Banner */
+.work-box {
+  padding: 50px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-inner {
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+
+/* My Work - Work-sample */
+.work-box .work-sample .card {
+  border: none;
+}
+
+.work-box .work-sample .card .card-body {
+  background-image: url("../../images/work1.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+  margin-bottom: 20px;
+}
+
+.work-box .work-sample .card:nth-child(2) .card-body {
+  background-image: url("../../images/work2.jpg") !important;
+}
+
+.work-box .work-sample .card:nth-child(3) .card-body {
+  background-image: url("../../images/work3.jpg") !important;
+}
+
+.work-box .work-sample .card:nth-child(4) .card-body {
+  background-image: url("../../images/work4.jpg") !important;
+}
+
+.work-box .work-sample .card:nth-child(5) .card-body {
+  background-image: url("../../images/work5.jpg") !important;
+}
+
+.work-box .work-sample .card:nth-child(6) .card-body {
+  background-image: url("../../images/work6.jpg") !important;
+}
+
+/* My Work - Contact-me */
+
+.contact-form textarea {
+  height: 110px;
+}
+
+.google-maps-box {
+  width: 100%;
+}
+
+.contact-details .fa,
+.contact-details .fas {
+  min-width: 20px;
+}
+
+.contact-details > div > div {
+  margin-bottom: 20px;
+}

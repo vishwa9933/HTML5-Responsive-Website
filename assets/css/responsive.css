@@ -1,0 +1,22 @@
+@media (max-width: 992px) {
+  .intro-box {
+    position: static;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .intro-box .my-card {
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+  }
+  .intro-box .my-card .intro-text h1 {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .work-box {
+    padding: 20px;
+  }
+  .contact-form {
+    margin-bottom: 30px;
+  }
+}
